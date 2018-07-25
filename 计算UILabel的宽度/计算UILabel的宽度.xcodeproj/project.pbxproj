@@ -1,0 +1,433 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		AE44F3831DDD3435001FA370 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = AE44F3821DDD3435001FA370 /* main.m */; };
+		AE44F3861DDD3435001FA370 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = AE44F3851DDD3435001FA370 /* AppDelegate.m */; };
+		AE44F3891DDD3435001FA370 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AE44F3881DDD3435001FA370 /* ViewController.m */; };
+		AE44F38C1DDD3435001FA370 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AE44F38A1DDD3435001FA370 /* Main.storyboard */; };
+		AE44F38E1DDD3435001FA370 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AE44F38D1DDD3435001FA370 /* Images.xcassets */; };
+		AE44F3911DDD3435001FA370 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = AE44F38F1DDD3435001FA370 /* LaunchScreen.xib */; };
+		AE44F39D1DDD3435001FA370 /* __UILabel___Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = AE44F39C1DDD3435001FA370 /* __UILabel___Tests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		AE44F3971DDD3435001FA370 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AE44F3751DDD3435001FA370 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AE44F37C1DDD3435001FA370;
+			remoteInfo = "计算UILabel的宽度";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		AE44F37D1DDD3435001FA370 /* 计算UILabel的宽度.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "计算UILabel的宽度.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		AE44F3811DDD3435001FA370 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AE44F3821DDD3435001FA370 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		AE44F3841DDD3435001FA370 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		AE44F3851DDD3435001FA370 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		AE44F3871DDD3435001FA370 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		AE44F3881DDD3435001FA370 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		AE44F38B1DDD3435001FA370 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		AE44F38D1DDD3435001FA370 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		AE44F3901DDD3435001FA370 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		AE44F3961DDD3435001FA370 /* 计算UILabel的宽度Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "计算UILabel的宽度Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		AE44F39B1DDD3435001FA370 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AE44F39C1DDD3435001FA370 /* __UILabel___Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "__UILabel___Tests.m"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		AE44F37A1DDD3435001FA370 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AE44F3931DDD3435001FA370 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		AE44F3741DDD3435001FA370 = {
+			isa = PBXGroup;
+			children = (
+				AE44F37F1DDD3435001FA370 /* 计算UILabel的宽度 */,
+				AE44F3991DDD3435001FA370 /* 计算UILabel的宽度Tests */,
+				AE44F37E1DDD3435001FA370 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		AE44F37E1DDD3435001FA370 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				AE44F37D1DDD3435001FA370 /* 计算UILabel的宽度.app */,
+				AE44F3961DDD3435001FA370 /* 计算UILabel的宽度Tests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		AE44F37F1DDD3435001FA370 /* 计算UILabel的宽度 */ = {
+			isa = PBXGroup;
+			children = (
+				AE44F3841DDD3435001FA370 /* AppDelegate.h */,
+				AE44F3851DDD3435001FA370 /* AppDelegate.m */,
+				AE44F3871DDD3435001FA370 /* ViewController.h */,
+				AE44F3881DDD3435001FA370 /* ViewController.m */,
+				AE44F38A1DDD3435001FA370 /* Main.storyboard */,
+				AE44F38D1DDD3435001FA370 /* Images.xcassets */,
+				AE44F38F1DDD3435001FA370 /* LaunchScreen.xib */,
+				AE44F3801DDD3435001FA370 /* Supporting Files */,
+			);
+			path = "计算UILabel的宽度";
+			sourceTree = "<group>";
+		};
+		AE44F3801DDD3435001FA370 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				AE44F3811DDD3435001FA370 /* Info.plist */,
+				AE44F3821DDD3435001FA370 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		AE44F3991DDD3435001FA370 /* 计算UILabel的宽度Tests */ = {
+			isa = PBXGroup;
+			children = (
+				AE44F39C1DDD3435001FA370 /* __UILabel___Tests.m */,
+				AE44F39A1DDD3435001FA370 /* Supporting Files */,
+			);
+			path = "计算UILabel的宽度Tests";
+			sourceTree = "<group>";
+		};
+		AE44F39A1DDD3435001FA370 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				AE44F39B1DDD3435001FA370 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		AE44F37C1DDD3435001FA370 /* 计算UILabel的宽度 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AE44F3A01DDD3435001FA370 /* Build configuration list for PBXNativeTarget "计算UILabel的宽度" */;
+			buildPhases = (
+				AE44F3791DDD3435001FA370 /* Sources */,
+				AE44F37A1DDD3435001FA370 /* Frameworks */,
+				AE44F37B1DDD3435001FA370 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "计算UILabel的宽度";
+			productName = "计算UILabel的宽度";
+			productReference = AE44F37D1DDD3435001FA370 /* 计算UILabel的宽度.app */;
+			productType = "com.apple.product-type.application";
+		};
+		AE44F3951DDD3435001FA370 /* 计算UILabel的宽度Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AE44F3A31DDD3435001FA370 /* Build configuration list for PBXNativeTarget "计算UILabel的宽度Tests" */;
+			buildPhases = (
+				AE44F3921DDD3435001FA370 /* Sources */,
+				AE44F3931DDD3435001FA370 /* Frameworks */,
+				AE44F3941DDD3435001FA370 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				AE44F3981DDD3435001FA370 /* PBXTargetDependency */,
+			);
+			name = "计算UILabel的宽度Tests";
+			productName = "计算UILabel的宽度Tests";
+			productReference = AE44F3961DDD3435001FA370 /* 计算UILabel的宽度Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		AE44F3751DDD3435001FA370 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0640;
+				ORGANIZATIONNAME = "安徽商贸职业技术学院";
+				TargetAttributes = {
+					AE44F37C1DDD3435001FA370 = {
+						CreatedOnToolsVersion = 6.4;
+					};
+					AE44F3951DDD3435001FA370 = {
+						CreatedOnToolsVersion = 6.4;
+						TestTargetID = AE44F37C1DDD3435001FA370;
+					};
+				};
+			};
+			buildConfigurationList = AE44F3781DDD3435001FA370 /* Build configuration list for PBXProject "计算UILabel的宽度" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = AE44F3741DDD3435001FA370;
+			productRefGroup = AE44F37E1DDD3435001FA370 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				AE44F37C1DDD3435001FA370 /* 计算UILabel的宽度 */,
+				AE44F3951DDD3435001FA370 /* 计算UILabel的宽度Tests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		AE44F37B1DDD3435001FA370 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AE44F38C1DDD3435001FA370 /* Main.storyboard in Resources */,
+				AE44F3911DDD3435001FA370 /* LaunchScreen.xib in Resources */,
+				AE44F38E1DDD3435001FA370 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AE44F3941DDD3435001FA370 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		AE44F3791DDD3435001FA370 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AE44F3891DDD3435001FA370 /* ViewController.m in Sources */,
+				AE44F3861DDD3435001FA370 /* AppDelegate.m in Sources */,
+				AE44F3831DDD3435001FA370 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AE44F3921DDD3435001FA370 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AE44F39D1DDD3435001FA370 /* __UILabel___Tests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		AE44F3981DDD3435001FA370 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = AE44F37C1DDD3435001FA370 /* 计算UILabel的宽度 */;
+			targetProxy = AE44F3971DDD3435001FA370 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		AE44F38A1DDD3435001FA370 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AE44F38B1DDD3435001FA370 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		AE44F38F1DDD3435001FA370 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AE44F3901DDD3435001FA370 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		AE44F39E1DDD3435001FA370 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		AE44F39F1DDD3435001FA370 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		AE44F3A11DDD3435001FA370 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "计算UILabel的宽度/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		AE44F3A21DDD3435001FA370 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "计算UILabel的宽度/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		AE44F3A41DDD3435001FA370 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "计算UILabel的宽度Tests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/计算UILabel的宽度.app/计算UILabel的宽度";
+			};
+			name = Debug;
+		};
+		AE44F3A51DDD3435001FA370 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "计算UILabel的宽度Tests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/计算UILabel的宽度.app/计算UILabel的宽度";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		AE44F3781DDD3435001FA370 /* Build configuration list for PBXProject "计算UILabel的宽度" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AE44F39E1DDD3435001FA370 /* Debug */,
+				AE44F39F1DDD3435001FA370 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AE44F3A01DDD3435001FA370 /* Build configuration list for PBXNativeTarget "计算UILabel的宽度" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AE44F3A11DDD3435001FA370 /* Debug */,
+				AE44F3A21DDD3435001FA370 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		AE44F3A31DDD3435001FA370 /* Build configuration list for PBXNativeTarget "计算UILabel的宽度Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AE44F3A41DDD3435001FA370 /* Debug */,
+				AE44F3A51DDD3435001FA370 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = AE44F3751DDD3435001FA370 /* Project object */;
+}
