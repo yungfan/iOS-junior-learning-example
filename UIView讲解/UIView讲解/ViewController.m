@@ -20,6 +20,9 @@
     [super viewDidLoad];
     // Do any additional setup after loading the view, typically from a nib.
     
+    
+    
+    
     //UIViewController里面的那个view默认是跟手机屏幕一样大
     //addSubview有着严格的顺序 谁先添加就在下面 后添加的在上面
 
