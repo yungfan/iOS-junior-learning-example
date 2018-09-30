@@ -1,0 +1,338 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		ADBEDC132160681300BAFA22 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = ADBEDC122160681300BAFA22 /* AppDelegate.m */; };
+		ADBEDC162160681300BAFA22 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = ADBEDC152160681300BAFA22 /* ViewController.m */; };
+		ADBEDC192160681400BAFA22 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ADBEDC172160681400BAFA22 /* Main.storyboard */; };
+		ADBEDC1B2160681A00BAFA22 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ADBEDC1A2160681A00BAFA22 /* Assets.xcassets */; };
+		ADBEDC1E2160681A00BAFA22 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ADBEDC1C2160681A00BAFA22 /* LaunchScreen.storyboard */; };
+		ADBEDC212160681A00BAFA22 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = ADBEDC202160681A00BAFA22 /* main.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		ADBEDC0E2160681300BAFA22 /* UIActivityIndicatorView、UIProgressView案例.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "UIActivityIndicatorView、UIProgressView案例.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		ADBEDC112160681300BAFA22 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		ADBEDC122160681300BAFA22 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		ADBEDC142160681300BAFA22 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		ADBEDC152160681300BAFA22 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		ADBEDC182160681400BAFA22 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		ADBEDC1A2160681A00BAFA22 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		ADBEDC1D2160681A00BAFA22 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		ADBEDC1F2160681A00BAFA22 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		ADBEDC202160681A00BAFA22 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		ADBEDC0B2160681300BAFA22 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		ADBEDC052160681300BAFA22 = {
+			isa = PBXGroup;
+			children = (
+				ADBEDC102160681300BAFA22 /* UIActivityIndicatorView、UIProgressView案例 */,
+				ADBEDC0F2160681300BAFA22 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		ADBEDC0F2160681300BAFA22 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				ADBEDC0E2160681300BAFA22 /* UIActivityIndicatorView、UIProgressView案例.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		ADBEDC102160681300BAFA22 /* UIActivityIndicatorView、UIProgressView案例 */ = {
+			isa = PBXGroup;
+			children = (
+				ADBEDC112160681300BAFA22 /* AppDelegate.h */,
+				ADBEDC122160681300BAFA22 /* AppDelegate.m */,
+				ADBEDC142160681300BAFA22 /* ViewController.h */,
+				ADBEDC152160681300BAFA22 /* ViewController.m */,
+				ADBEDC172160681400BAFA22 /* Main.storyboard */,
+				ADBEDC1A2160681A00BAFA22 /* Assets.xcassets */,
+				ADBEDC1C2160681A00BAFA22 /* LaunchScreen.storyboard */,
+				ADBEDC1F2160681A00BAFA22 /* Info.plist */,
+				ADBEDC202160681A00BAFA22 /* main.m */,
+			);
+			path = "UIActivityIndicatorView、UIProgressView案例";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		ADBEDC0D2160681300BAFA22 /* UIActivityIndicatorView、UIProgressView案例 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = ADBEDC242160681A00BAFA22 /* Build configuration list for PBXNativeTarget "UIActivityIndicatorView、UIProgressView案例" */;
+			buildPhases = (
+				ADBEDC0A2160681300BAFA22 /* Sources */,
+				ADBEDC0B2160681300BAFA22 /* Frameworks */,
+				ADBEDC0C2160681300BAFA22 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "UIActivityIndicatorView、UIProgressView案例";
+			productName = "UIActivityIndicatorView、UIProgressView案例";
+			productReference = ADBEDC0E2160681300BAFA22 /* UIActivityIndicatorView、UIProgressView案例.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		ADBEDC062160681300BAFA22 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0940;
+				ORGANIZATIONNAME = abc;
+				TargetAttributes = {
+					ADBEDC0D2160681300BAFA22 = {
+						CreatedOnToolsVersion = 9.4;
+					};
+				};
+			};
+			buildConfigurationList = ADBEDC092160681300BAFA22 /* Build configuration list for PBXProject "UIActivityIndicatorView、UIProgressView案例" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = ADBEDC052160681300BAFA22;
+			productRefGroup = ADBEDC0F2160681300BAFA22 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				ADBEDC0D2160681300BAFA22 /* UIActivityIndicatorView、UIProgressView案例 */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		ADBEDC0C2160681300BAFA22 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ADBEDC1E2160681A00BAFA22 /* LaunchScreen.storyboard in Resources */,
+				ADBEDC1B2160681A00BAFA22 /* Assets.xcassets in Resources */,
+				ADBEDC192160681400BAFA22 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		ADBEDC0A2160681300BAFA22 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ADBEDC162160681300BAFA22 /* ViewController.m in Sources */,
+				ADBEDC212160681A00BAFA22 /* main.m in Sources */,
+				ADBEDC132160681300BAFA22 /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		ADBEDC172160681400BAFA22 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				ADBEDC182160681400BAFA22 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		ADBEDC1C2160681A00BAFA22 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				ADBEDC1D2160681A00BAFA22 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		ADBEDC222160681A00BAFA22 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		ADBEDC232160681A00BAFA22 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		ADBEDC252160681A00BAFA22 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "UIActivityIndicatorView、UIProgressView案例/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "cn.edu.abc.www.UIActivityIndicatorView-UIProgressView--";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		ADBEDC262160681A00BAFA22 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "UIActivityIndicatorView、UIProgressView案例/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "cn.edu.abc.www.UIActivityIndicatorView-UIProgressView--";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		ADBEDC092160681300BAFA22 /* Build configuration list for PBXProject "UIActivityIndicatorView、UIProgressView案例" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ADBEDC222160681A00BAFA22 /* Debug */,
+				ADBEDC232160681A00BAFA22 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		ADBEDC242160681A00BAFA22 /* Build configuration list for PBXNativeTarget "UIActivityIndicatorView、UIProgressView案例" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ADBEDC252160681A00BAFA22 /* Debug */,
+				ADBEDC262160681A00BAFA22 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = ADBEDC062160681300BAFA22 /* Project object */;
+}
