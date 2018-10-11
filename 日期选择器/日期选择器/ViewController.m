@@ -49,7 +49,7 @@
     
     
     //2、设置想要的日期格式  XXXX年XX月XX日 XX时XX分XX秒
-    
+    //yyyy：年 MM：月 dd：日 hh：12小时制 HH：24小时制 mm：分钟 ss：秒钟
     //[formmater setDateFormat:@"yyyy年MM月dd日 hh:mm:ss"];
     [formmater setDateFormat:@"yyyy-MM-dd"];
     
