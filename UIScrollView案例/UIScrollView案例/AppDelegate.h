@@ -1,9 +1,9 @@
 //
 //  AppDelegate.h
-//  UIScrollViewDemo
+//  UIScrollView案例
 //
-//  Created by teacher on 16/10/11.
-//  Copyright (c) 2016年 安徽商贸职业技术学院. All rights reserved.
+//  Created by stu1 on 2018/10/15.
+//  Copyright © 2018年 abc. All rights reserved.
 //
 
 #import <UIKit/UIKit.h>
