@@ -58,6 +58,8 @@
         
         cell = [[UITableViewCell alloc]initWithStyle:UITableViewCellStyleSubtitle reuseIdentifier:@"abc"];
         
+        NSLog(@"nil");
+        
     }
     
     cell.textLabel.text = @"AAA";
@@ -69,6 +71,7 @@
     return cell;
     
 }
+
 
 //每组多少行（多少个单元格）
 - (NSInteger)tableView:(nonnull UITableView *)tableView numberOfRowsInSection:(NSInteger)section {
