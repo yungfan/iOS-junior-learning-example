@@ -14,6 +14,11 @@
 @property (strong, nonatomic) NSMutableArray *content;
 //detailTextLabel显示的内容数组
 @property (strong, nonatomic) NSMutableArray *detailContent;
+//UITableView
+@property (weak, nonatomic) IBOutlet UITableView *tableView;
+//编辑按钮
+- (IBAction)edit:(id)sender;
+- (IBAction)done:(id)sender;
 
 @end
 
@@ -21,8 +26,7 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    // Do any additional setup after loading the view, typically from a nib.
-    
+
     NSArray *one = @[@"iPhone3G",@"iPhone3GS",@"iPhone4",@"iPhone4S",@"iPhone5",@"iPhone5S",@"iPhone6",@"iPhone6 Plus",@"iPhone6S",@"iPhone6S Plus",@"iPhone SE",@"iPhone7",@"iPhone7 Plus",@"iPhone8",@"iPhone8 PLus",@"iPhone X",@"iPhone XS",@"iPhone XR",@"iPhone XS Max"];
     
     self.content = [NSMutableArray arrayWithArray:one];
@@ -94,12 +98,14 @@
     
 }
 
+//分组头部高度
 -(CGFloat)tableView:(UITableView *)tableView heightForHeaderInSection:(NSInteger)section{
     
     return 100.0;
     
 }
 
+//分组尾部高度
 -(CGFloat)tableView:(UITableView *)tableView heightForFooterInSection:(NSInteger)section{
     
     return 60.0;
@@ -107,7 +113,6 @@
 }
 
 //删除
-
 //能够编辑
 -(BOOL)tableView:(UITableView *)tableView canEditRowAtIndexPath:(NSIndexPath *)indexPath{
     
@@ -117,6 +122,7 @@
 //真正进入编辑以后响应的方法
 -(void)tableView:(UITableView *)tableView commitEditingStyle:(UITableViewCellEditingStyle)editingStyle forRowAtIndexPath:(NSIndexPath *)indexPath{
     
+    //如果是删除
     if (editingStyle == UITableViewCellEditingStyleDelete) {
         
         //数据源中移除数据 -- 真正的删除
@@ -128,6 +134,18 @@
         [tableView deleteRowsAtIndexPaths:@[indexPath] withRowAnimation:UITableViewRowAnimationFade];
         
     }
+    
+    //如果是增加
+    if (editingStyle == UITableViewCellEditingStyleInsert) {
+        
+        //数据源中增加数据
+        [self.content insertObject:@"iPhone1" atIndex:indexPath.row];
+        [self.detailContent insertObject:@"iPhone1 - iPhone OS" atIndex:indexPath.row];
+        
+        //UITableView增加一行
+        [tableView insertRowsAtIndexPaths:@[indexPath] withRowAnimation:UITableViewRowAnimationFade];
+    }
+    
 }
 
 //删除按钮的文字
@@ -135,6 +153,67 @@
     
     return @"删除";
     
+}
+
+//增加
+//进入编辑状态
+- (IBAction)edit:(id)sender {
+    
+    [self.tableView setEditing:YES];
+}
+
+- (IBAction)done:(id)sender {
+    
+    [self.tableView setEditing:NO];
+}
+
+//设置一个编辑风格（默认是删除）
+//返回编辑的风格
+-(UITableViewCellEditingStyle)tableView:(UITableView *)tableView editingStyleForRowAtIndexPath:(NSIndexPath *)indexPath{
+    
+    
+    return UITableViewCellEditingStyleInsert;
+    
+}
+
+//移动
+//能否移动
+-(BOOL)tableView:(UITableView *)tableView canMoveRowAtIndexPath:(NSIndexPath *)indexPath{
+    
+    return YES;
+}
+
+//从哪一行移动到哪一行
+-(void)tableView:(UITableView *)tableView moveRowAtIndexPath:(NSIndexPath *)sourceIndexPath toIndexPath:(NSIndexPath *)destinationIndexPath{
+    
+    //完成数据源的数据交换 否则一滑动就会复原
+//    NSString *source = [self.content objectAtIndex:sourceIndexPath.row];
+//    NSString *sourceDetail = [self.detailContent objectAtIndex:sourceIndexPath.row];
+//
+//
+//
+//    NSString *destination = [self.content objectAtIndex:destinationIndexPath.row];
+//    NSString *destinationDetail = [self.detailContent objectAtIndex:destinationIndexPath.row];
+//
+//
+//    self.content[destinationIndexPath.row] = source;
+//    self.detailContent[destinationIndexPath.row] = sourceDetail;
+//    self.content[sourceIndexPath.row] = destination;
+//    self.detailContent[sourceIndexPath.row] = destinationDetail;
+    
+    
+    
+    // 这样写可能更好理解一点
+    NSString *contentText = [self.content objectAtIndex:sourceIndexPath.row];
+    // 先把原位置的删了 再增加一个到目标位置
+    [self.content removeObjectAtIndex:sourceIndexPath.row];
+    [self.content insertObject:contentText atIndex:destinationIndexPath.row];
+
+
+    NSString *contentDetailText = [self.content objectAtIndex:sourceIndexPath.row];
+    [self.detailContent removeObjectAtIndex:sourceIndexPath.row];
+    [self.detailContent insertObject:contentDetailText atIndex:destinationIndexPath.row];
+
 }
 
 
