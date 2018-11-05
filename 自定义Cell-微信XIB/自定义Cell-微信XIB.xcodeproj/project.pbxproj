@@ -1,0 +1,356 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		ADA48EC9218FEB54007D0870 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = ADA48EC8218FEB54007D0870 /* AppDelegate.m */; };
+		ADA48ECC218FEB54007D0870 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = ADA48ECB218FEB54007D0870 /* ViewController.m */; };
+		ADA48ECF218FEB54007D0870 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ADA48ECD218FEB54007D0870 /* Main.storyboard */; };
+		ADA48ED1218FEB56007D0870 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ADA48ED0218FEB56007D0870 /* Assets.xcassets */; };
+		ADA48ED4218FEB56007D0870 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ADA48ED2218FEB56007D0870 /* LaunchScreen.storyboard */; };
+		ADA48ED7218FEB56007D0870 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = ADA48ED6218FEB56007D0870 /* main.m */; };
+		ADA48EDF218FEBEE007D0870 /* WeChat.m in Sources */ = {isa = PBXBuildFile; fileRef = ADA48EDE218FEBEE007D0870 /* WeChat.m */; };
+		ADA48EE3218FEC2D007D0870 /* WeChatTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = ADA48EE1218FEC2D007D0870 /* WeChatTableViewCell.m */; };
+		ADA48EE4218FEC2D007D0870 /* WeChatTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = ADA48EE2218FEC2D007D0870 /* WeChatTableViewCell.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		ADA48EC4218FEB54007D0870 /* 自定义Cell-微信XIB.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "自定义Cell-微信XIB.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		ADA48EC7218FEB54007D0870 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		ADA48EC8218FEB54007D0870 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		ADA48ECA218FEB54007D0870 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		ADA48ECB218FEB54007D0870 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		ADA48ECE218FEB54007D0870 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		ADA48ED0218FEB56007D0870 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		ADA48ED3218FEB56007D0870 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		ADA48ED5218FEB56007D0870 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		ADA48ED6218FEB56007D0870 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		ADA48EDD218FEBEE007D0870 /* WeChat.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WeChat.h; sourceTree = "<group>"; };
+		ADA48EDE218FEBEE007D0870 /* WeChat.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WeChat.m; sourceTree = "<group>"; };
+		ADA48EE0218FEC2D007D0870 /* WeChatTableViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WeChatTableViewCell.h; sourceTree = "<group>"; };
+		ADA48EE1218FEC2D007D0870 /* WeChatTableViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WeChatTableViewCell.m; sourceTree = "<group>"; };
+		ADA48EE2218FEC2D007D0870 /* WeChatTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = WeChatTableViewCell.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		ADA48EC1218FEB54007D0870 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		ADA48EBB218FEB54007D0870 = {
+			isa = PBXGroup;
+			children = (
+				ADA48EC6218FEB54007D0870 /* 自定义Cell-微信XIB */,
+				ADA48EC5218FEB54007D0870 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		ADA48EC5218FEB54007D0870 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				ADA48EC4218FEB54007D0870 /* 自定义Cell-微信XIB.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		ADA48EC6218FEB54007D0870 /* 自定义Cell-微信XIB */ = {
+			isa = PBXGroup;
+			children = (
+				ADA48EDD218FEBEE007D0870 /* WeChat.h */,
+				ADA48EDE218FEBEE007D0870 /* WeChat.m */,
+				ADA48EC7218FEB54007D0870 /* AppDelegate.h */,
+				ADA48EC8218FEB54007D0870 /* AppDelegate.m */,
+				ADA48ECA218FEB54007D0870 /* ViewController.h */,
+				ADA48ECB218FEB54007D0870 /* ViewController.m */,
+				ADA48ECD218FEB54007D0870 /* Main.storyboard */,
+				ADA48ED0218FEB56007D0870 /* Assets.xcassets */,
+				ADA48ED2218FEB56007D0870 /* LaunchScreen.storyboard */,
+				ADA48ED5218FEB56007D0870 /* Info.plist */,
+				ADA48ED6218FEB56007D0870 /* main.m */,
+				ADA48EE0218FEC2D007D0870 /* WeChatTableViewCell.h */,
+				ADA48EE1218FEC2D007D0870 /* WeChatTableViewCell.m */,
+				ADA48EE2218FEC2D007D0870 /* WeChatTableViewCell.xib */,
+			);
+			path = "自定义Cell-微信XIB";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		ADA48EC3218FEB54007D0870 /* 自定义Cell-微信XIB */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = ADA48EDA218FEB56007D0870 /* Build configuration list for PBXNativeTarget "自定义Cell-微信XIB" */;
+			buildPhases = (
+				ADA48EC0218FEB54007D0870 /* Sources */,
+				ADA48EC1218FEB54007D0870 /* Frameworks */,
+				ADA48EC2218FEB54007D0870 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "自定义Cell-微信XIB";
+			productName = "自定义Cell-微信XIB";
+			productReference = ADA48EC4218FEB54007D0870 /* 自定义Cell-微信XIB.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		ADA48EBC218FEB54007D0870 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1000;
+				ORGANIZATIONNAME = abc;
+				TargetAttributes = {
+					ADA48EC3218FEB54007D0870 = {
+						CreatedOnToolsVersion = 10.0;
+					};
+				};
+			};
+			buildConfigurationList = ADA48EBF218FEB54007D0870 /* Build configuration list for PBXProject "自定义Cell-微信XIB" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = ADA48EBB218FEB54007D0870;
+			productRefGroup = ADA48EC5218FEB54007D0870 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				ADA48EC3218FEB54007D0870 /* 自定义Cell-微信XIB */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		ADA48EC2218FEB54007D0870 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ADA48ED4218FEB56007D0870 /* LaunchScreen.storyboard in Resources */,
+				ADA48ED1218FEB56007D0870 /* Assets.xcassets in Resources */,
+				ADA48ECF218FEB54007D0870 /* Main.storyboard in Resources */,
+				ADA48EE4218FEC2D007D0870 /* WeChatTableViewCell.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		ADA48EC0218FEB54007D0870 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ADA48ECC218FEB54007D0870 /* ViewController.m in Sources */,
+				ADA48ED7218FEB56007D0870 /* main.m in Sources */,
+				ADA48EC9218FEB54007D0870 /* AppDelegate.m in Sources */,
+				ADA48EDF218FEBEE007D0870 /* WeChat.m in Sources */,
+				ADA48EE3218FEC2D007D0870 /* WeChatTableViewCell.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		ADA48ECD218FEB54007D0870 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				ADA48ECE218FEB54007D0870 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		ADA48ED2218FEB56007D0870 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				ADA48ED3218FEB56007D0870 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		ADA48ED8218FEB56007D0870 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		ADA48ED9218FEB56007D0870 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		ADA48EDB218FEB56007D0870 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "自定义Cell-微信XIB/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "cn.edu.abc.www.---Cell---XIB";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		ADA48EDC218FEB56007D0870 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "自定义Cell-微信XIB/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "cn.edu.abc.www.---Cell---XIB";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		ADA48EBF218FEB54007D0870 /* Build configuration list for PBXProject "自定义Cell-微信XIB" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ADA48ED8218FEB56007D0870 /* Debug */,
+				ADA48ED9218FEB56007D0870 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		ADA48EDA218FEB56007D0870 /* Build configuration list for PBXNativeTarget "自定义Cell-微信XIB" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ADA48EDB218FEB56007D0870 /* Debug */,
+				ADA48EDC218FEB56007D0870 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = ADA48EBC218FEB54007D0870 /* Project object */;
+}
