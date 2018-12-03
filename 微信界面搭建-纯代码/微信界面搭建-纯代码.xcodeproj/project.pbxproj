@@ -1,0 +1,352 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		ADBE6D8321B4C7FA00053676 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = ADBE6D8221B4C7FA00053676 /* AppDelegate.m */; };
+		ADBE6D8B21B4C80200053676 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ADBE6D8A21B4C80200053676 /* Assets.xcassets */; };
+		ADBE6D8E21B4C80300053676 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ADBE6D8C21B4C80200053676 /* LaunchScreen.storyboard */; };
+		ADBE6D9121B4C80300053676 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = ADBE6D9021B4C80300053676 /* main.m */; };
+		ADBE6D9921B4C8CD00053676 /* YFTabBarController.m in Sources */ = {isa = PBXBuildFile; fileRef = ADBE6D9821B4C8CD00053676 /* YFTabBarController.m */; };
+		ADBE6D9C21B4CF1B00053676 /* WechatViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = ADBE6D9B21B4CF1B00053676 /* WechatViewController.m */; };
+		ADBE6D9F21B4CF2F00053676 /* ContactViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = ADBE6D9E21B4CF2F00053676 /* ContactViewController.m */; };
+		ADBE6DA221B4CF3E00053676 /* FoundViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = ADBE6DA121B4CF3E00053676 /* FoundViewController.m */; };
+		ADBE6DA521B4CF4E00053676 /* MineViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = ADBE6DA421B4CF4E00053676 /* MineViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		ADBE6D7E21B4C7FA00053676 /* 微信界面搭建-纯代码.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "微信界面搭建-纯代码.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		ADBE6D8121B4C7FA00053676 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		ADBE6D8221B4C7FA00053676 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		ADBE6D8A21B4C80200053676 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		ADBE6D8D21B4C80300053676 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		ADBE6D8F21B4C80300053676 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		ADBE6D9021B4C80300053676 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		ADBE6D9721B4C8CD00053676 /* YFTabBarController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YFTabBarController.h; sourceTree = "<group>"; };
+		ADBE6D9821B4C8CD00053676 /* YFTabBarController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YFTabBarController.m; sourceTree = "<group>"; };
+		ADBE6D9A21B4CF1B00053676 /* WechatViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WechatViewController.h; sourceTree = "<group>"; };
+		ADBE6D9B21B4CF1B00053676 /* WechatViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WechatViewController.m; sourceTree = "<group>"; };
+		ADBE6D9D21B4CF2F00053676 /* ContactViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ContactViewController.h; sourceTree = "<group>"; };
+		ADBE6D9E21B4CF2F00053676 /* ContactViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ContactViewController.m; sourceTree = "<group>"; };
+		ADBE6DA021B4CF3E00053676 /* FoundViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FoundViewController.h; sourceTree = "<group>"; };
+		ADBE6DA121B4CF3E00053676 /* FoundViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FoundViewController.m; sourceTree = "<group>"; };
+		ADBE6DA321B4CF4E00053676 /* MineViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MineViewController.h; sourceTree = "<group>"; };
+		ADBE6DA421B4CF4E00053676 /* MineViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MineViewController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		ADBE6D7B21B4C7FA00053676 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		ADBE6D7521B4C7FA00053676 = {
+			isa = PBXGroup;
+			children = (
+				ADBE6D8021B4C7FA00053676 /* 微信界面搭建-纯代码 */,
+				ADBE6D7F21B4C7FA00053676 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		ADBE6D7F21B4C7FA00053676 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				ADBE6D7E21B4C7FA00053676 /* 微信界面搭建-纯代码.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		ADBE6D8021B4C7FA00053676 /* 微信界面搭建-纯代码 */ = {
+			isa = PBXGroup;
+			children = (
+				ADBE6D8121B4C7FA00053676 /* AppDelegate.h */,
+				ADBE6D8221B4C7FA00053676 /* AppDelegate.m */,
+				ADBE6D8A21B4C80200053676 /* Assets.xcassets */,
+				ADBE6D8C21B4C80200053676 /* LaunchScreen.storyboard */,
+				ADBE6D8F21B4C80300053676 /* Info.plist */,
+				ADBE6D9021B4C80300053676 /* main.m */,
+				ADBE6D9721B4C8CD00053676 /* YFTabBarController.h */,
+				ADBE6D9821B4C8CD00053676 /* YFTabBarController.m */,
+				ADBE6D9A21B4CF1B00053676 /* WechatViewController.h */,
+				ADBE6D9B21B4CF1B00053676 /* WechatViewController.m */,
+				ADBE6D9D21B4CF2F00053676 /* ContactViewController.h */,
+				ADBE6D9E21B4CF2F00053676 /* ContactViewController.m */,
+				ADBE6DA021B4CF3E00053676 /* FoundViewController.h */,
+				ADBE6DA121B4CF3E00053676 /* FoundViewController.m */,
+				ADBE6DA321B4CF4E00053676 /* MineViewController.h */,
+				ADBE6DA421B4CF4E00053676 /* MineViewController.m */,
+			);
+			path = "微信界面搭建-纯代码";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		ADBE6D7D21B4C7FA00053676 /* 微信界面搭建-纯代码 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = ADBE6D9421B4C80300053676 /* Build configuration list for PBXNativeTarget "微信界面搭建-纯代码" */;
+			buildPhases = (
+				ADBE6D7A21B4C7FA00053676 /* Sources */,
+				ADBE6D7B21B4C7FA00053676 /* Frameworks */,
+				ADBE6D7C21B4C7FA00053676 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "微信界面搭建-纯代码";
+			productName = "微信界面搭建-纯代码";
+			productReference = ADBE6D7E21B4C7FA00053676 /* 微信界面搭建-纯代码.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		ADBE6D7621B4C7FA00053676 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1000;
+				ORGANIZATIONNAME = abc;
+				TargetAttributes = {
+					ADBE6D7D21B4C7FA00053676 = {
+						CreatedOnToolsVersion = 10.0;
+					};
+				};
+			};
+			buildConfigurationList = ADBE6D7921B4C7FA00053676 /* Build configuration list for PBXProject "微信界面搭建-纯代码" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = ADBE6D7521B4C7FA00053676;
+			productRefGroup = ADBE6D7F21B4C7FA00053676 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				ADBE6D7D21B4C7FA00053676 /* 微信界面搭建-纯代码 */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		ADBE6D7C21B4C7FA00053676 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ADBE6D8E21B4C80300053676 /* LaunchScreen.storyboard in Resources */,
+				ADBE6D8B21B4C80200053676 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		ADBE6D7A21B4C7FA00053676 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ADBE6D9F21B4CF2F00053676 /* ContactViewController.m in Sources */,
+				ADBE6DA521B4CF4E00053676 /* MineViewController.m in Sources */,
+				ADBE6D9C21B4CF1B00053676 /* WechatViewController.m in Sources */,
+				ADBE6D9121B4C80300053676 /* main.m in Sources */,
+				ADBE6D8321B4C7FA00053676 /* AppDelegate.m in Sources */,
+				ADBE6D9921B4C8CD00053676 /* YFTabBarController.m in Sources */,
+				ADBE6DA221B4CF3E00053676 /* FoundViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		ADBE6D8C21B4C80200053676 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				ADBE6D8D21B4C80300053676 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		ADBE6D9221B4C80300053676 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		ADBE6D9321B4C80300053676 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		ADBE6D9521B4C80300053676 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "微信界面搭建-纯代码/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "cn.edu.abc.www.----------";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		ADBE6D9621B4C80300053676 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "微信界面搭建-纯代码/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "cn.edu.abc.www.----------";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		ADBE6D7921B4C7FA00053676 /* Build configuration list for PBXProject "微信界面搭建-纯代码" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ADBE6D9221B4C80300053676 /* Debug */,
+				ADBE6D9321B4C80300053676 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		ADBE6D9421B4C80300053676 /* Build configuration list for PBXNativeTarget "微信界面搭建-纯代码" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ADBE6D9521B4C80300053676 /* Debug */,
+				ADBE6D9621B4C80300053676 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = ADBE6D7621B4C7FA00053676 /* Project object */;
+}
